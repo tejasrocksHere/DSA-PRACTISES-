@@ -2,12 +2,12 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void f(iint, int n){
-    if(i<n)
+void f( int n){
+    if(n==0)
     return ;
 else{
-    f();
-    cout<<n;
+    f(n-1);
+    cout<<n<<endl;
 }
 
 }
